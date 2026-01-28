@@ -1,92 +1,114 @@
 <!doctype html>
 <html lang="hu">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arial+Black&display=swap" rel="stylesheet">
-</head>
-
-
-<body>
-    <!-- Navbar -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oi&family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">10D webside</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Kezdőlap</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Termékek</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Kacsolat
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <div class="container-fluid gradient text-light py-5">
-        <h1>Hello Bootstrap</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ad quo nesciunt officia veniam consequatur doloribus rerum, repellat suscipit beatae minima id fugit, similique aliquid molestias quam qui ut illum?</p>
-        <a href="#" class="btn btn-primary">Read more...</a>
+  <div class="container">
+    <a class="navbar-brand" href="#">Tarr.kft</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto" >
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Kezdőlap</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Termékek</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kapcsolat</a>
+        </li>
+      </ul>
     </div>
-
-    <!-- Product Section -->
-    <section class="product py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>PCM Bootcamp</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, harum odio expedita, quisquam porro facilis debitis perspiciatis consequatur accusamus dolores, obcaecati quaerat accusantium itaque ut ad doloribus praesentium quasi quam!</p>
-                    <button class="btn btn-primary">Read more...</button>
-
-                </div>
-                <div class="col-md-6">
-                    <img src="images/handshake-two-color.png" alt="Handshake images" class="img-fluid">
-                
-                </div>
-                <div class="col-md-6">
-                    <img src="images/team-work-two-color-e4641.png" alt="Laptop images" class="img-fluid">
-                </div>
-                
-            </div>
+  </div>
+</nav>
+    <!-- hero -->
+<div class="container text-light">
+    <div class="row">
+        <div class="col gradient border p-5 my-5">
+            <h1>Hello bootstrap</h1>
+            <p style=>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati totam amet asperiores nam voluptatum? Unde doloremque accusamus, quos fugit iure magnam maiores optio voluptatem? Eius quisquam obcaecati ab suscipit sapiente?</p>
+            <a href="#" class="btn btn-primary">Reak more...</a>
         </div>
-    </section>
+    </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-</body>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<!-- products -->
+ <section class="products">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6"><img src="images/handshake-two-color.png" alt="handshake" class="img-fluid"></div>
+      <div class="col-md-6">
+        <h2>TA Leadership 1:1 Process</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, cupiditate doloremque laborum sunt reprehenderit quasi vero recusandae tempore eaque nihil ea non voluptate amet sint aliquam natus facere inventore quia?</p>
+        <button class="btn btn-primary">Read more...</button>
+      </div>
+    </div>
+  </div>
+ </section>
+
+  <section class="products">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6"><img src="images/step-1-two-color.png" alt="step-1-two-color" class="img-fluid"></div>
+      <div class="col-md-6">
+        <h2>PCM Bootcamp</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, cupiditate doloremque laborum sunt reprehenderit quasi vero recusandae tempore eaque nihil ea non voluptate amet sint aliquam natus facere inventore quia?</p>
+        <button class="btn btn-primary">Read more...</button>
+      </div>
+    </div>
+  </div>
+ </section>
+
+  <section class="products">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6"><img src="images/team-work-two-color-e4641.png" alt="team-work-two-color-" class="img-fluid"></div>
+      <div class="col-md-6">
+        <h2>Power Leman Growth Speech</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, cupiditate doloremque laborum sunt reprehenderit quasi vero recusandae tempore eaque nihil ea non voluptate amet sint aliquam natus facere inventore quia?</p>
+        <button class="btn btn-primary">Read more...</button>
+      </div>
+    </div>
+  </div>
+ </section>
+
+  <section class="products">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6"><img src="images/winners-two-color-1024x768.png" alt="winners-two-color" class="img-fluid"></div>
+      <div class="col-md-6">
+        <h2>Leman Inner Circle</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, cupiditate doloremque laborum sunt reprehenderit quasi vero recusandae tempore eaque nihil ea non voluptate amet sint aliquam natus facere inventore quia?</p>
+        <button class="btn btn-primary">Read more...</button>
+      </div>
+    </div>
+  </div>
+ </section>
+  <!-- footer -->
+<footer class="container-fluid bg-dark text-light py-4 mt-5">
+    <div class="container">
+        <div class="row text-center align-items-center">
+            <div class="col"><p class="mb-0">Semmmmmmmmmmi</p></div>
+        </div>
+    </div>
+</footer>
+
+
+  </body>
 </html>
